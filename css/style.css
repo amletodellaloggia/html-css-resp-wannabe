@@ -143,6 +143,11 @@ img {
 
 
  @media screen and (max-width: 480px) {
+
+    .container {
+        padding-bottom: 3rem;
+    }
+
     .row {
         display: flex;
         flex-direction: column;
@@ -153,9 +158,20 @@ img {
         width: 100%;
     }
 
+
+    .steps {
+        margin: 0;
+        padding-bottom: 3rem;
+    }
+
     .steps .col {
         width: 100%;
-        padding-bottom: 20px;
+    }
+
+    .why-us {
+        background-color:#222222;
+        padding: 3rem 0;
+        margin-bottom: 0;
     }
 
     .why-us .col-right {
@@ -164,7 +180,6 @@ img {
 
     .why-us .col-left {
         width: 100%;
-        padding-bottom: 40px;
     }
 
  }
